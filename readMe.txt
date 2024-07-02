@@ -7,6 +7,9 @@ data.mat: final wave speed and prinical stress dataset used for all analyses in 
 Column 1 = gastrocnemius preferentially loaded
 Column 2 = uniform loading
 Column 3 = soleus preferentially loaded
+Row 1,20,39... = 0 degree twist
+Row 2,21,40... = 10 degree twist
+...
 * data showing a 0 in either wave speed or stress indicates a simulation that did not converge to a solution
 
 radonFunction.m: matlab function for determining shear wave speeds using a Radon transform
